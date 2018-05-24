@@ -17,14 +17,10 @@
         <version>2.0.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <profiles>
-        <profile>
-            <id>profile1</id>
-            <properties>
-                <spring.boot.mainclass>com.HelloworldApplication</spring.boot.mainclass>
-            </properties>
-        </profile>
-    </profiles>
+   <properties>
+    <!-- The main class to start by executing java -jar -->
+    <start-class>com.HelloWorldApplication</start-class>
+	</properties>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
